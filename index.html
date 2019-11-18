@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="css/main.css">
   <title>Document</title>
 </head>
+
 <body>
   <nav>
     <span>
@@ -30,21 +32,36 @@
             <p>Goldfish</p>
           </header>
           <img src="goldie-fish.jpg" alt="pic of a fish">
-          <p>length: 2 in</p>
-          <p>diet: flakes</p>
-          <p>location: tank</p>
+          <div>
+            <button id="button--bubbles">Details</button>
+          </div>
+          <dialog class="dialog--fish" id="details--bubbles">
+
+            <p>length: 2 in</p>
+            <p>diet: flakes</p>
+            <p>location: tank</p>
+            <button class="button--close" id="close-bubbles">Close</button>
+          </dialog>
         </section>
         <section class="fishies__card">
           <header>
             <!-- name -->
-            <h4>Al Pal</h4>
+            <h4>Neal</h4>
             <!-- species -->
             <p>Hammerhead Shark</p>
           </header>
-          <img src="https://cf.ltkcdn.net/kids/images/std/232924-699x450-hammerhead-shark-facts-kids.jpg" alt="pic of a fish">
-          <p>length: 96 in</p>
-          <p>diet: small fish</p>
-          <p>location: Hawaii</p>
+          <img src="https://cf.ltkcdn.net/kids/images/std/232924-699x450-hammerhead-shark-facts-kids.jpg"
+            alt="pic of a fish">
+          <div>
+            <button id="button--neal">Details</button>
+          </div>
+          <dialog class="dialog--fish" id="details--neal">
+
+            <p>length: 96 in</p>
+            <p>diet: small fish</p>
+            <p>location: Hawaii</p>
+            <button class="button--close" id="close-neal">Close</button>
+          </dialog>
         </section>
         <section class="fishies__card">
           <header>
@@ -53,22 +70,37 @@
             <!-- species -->
             <p>Octopus</p>
           </header>
-          <img src="https://rangerrick.org/wp-content/uploads/2018/07/octopus-1156x650_Reinhard-Bruckner.jpg" alt="pic of a fish">
-          <p>length: 48 in</p>
-          <p>diet: eels</p>
-          <p>location: Great Barrier Reef</p>
+          <img src="https://rangerrick.org/wp-content/uploads/2018/07/octopus-1156x650_Reinhard-Bruckner.jpg"
+            alt="pic of a fish">
+          <div>
+            <button id="button--ocho">Details</button>
+          </div>
+          <dialog class="dialog--fish" id="details--ocho">
+            <p>length: 48 in</p>
+            <p>diet: eels</p>
+            <p>location: Great Barrier Reef</p>
+            <button class="button--close" id="close-ocho">Close</button>
+          </dialog>
         </section>
         <section class="fishies__card">
           <header>
             <!-- name -->
-            <h4>Sushi</h4>
+            <h4>Rosie</h4>
             <!-- species -->
-            <p>Yellowfin Tuna</p>
+            <p>Great White</p>
           </header>
-          <img src="https://www.anglersjournal.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTQ2OTAxMTA0NjYwNzE5NDE0/yellowfin-tuna.jpg" alt="pic of a fish">
-          <p>length: 36 in</p>
-          <p>diet: minnows</p>
-          <p>location: Gulf of Mexico</p>
+          <img
+            src="https://cbsnews1.cbsistatic.com/hub/i/2012/09/03/23633c73-a645-11e2-a3f0-029118418759/greatwhiteshark.jpg"
+            alt="pic of a fish">
+          <div>
+            <button id="button--rosie">Details</button>
+          </div>
+          <dialog class="dialog--fish" id="details--rosie">
+            <p>length: 168 in</p>
+            <p>diet: Seals</p>
+            <p>location: Gaansbai, South Africa</p>
+            <button class="button--close" id="close-rosie">Close</button>
+          </dialog>
         </section>
         <section class="fishies__card">
           <header>
@@ -77,10 +109,17 @@
             <!-- species -->
             <p>Piranha </p>
           </header>
-          <img src="https://i.dailymail.co.uk/i/pix/2011/12/07/article-2071042-0F18266B00000578-246_468x320.jpg" alt="pic of a fish">
-          <p>length: 4 in</p>
-          <p>diet: humans</p>
-          <p>location: Amazon</p>
+          <img src="https://i.dailymail.co.uk/i/pix/2011/12/07/article-2071042-0F18266B00000578-246_468x320.jpg"
+            alt="pic of a fish">
+          <div>
+            <button id="button--bitey">Details</button>
+          </div>
+          <dialog class="dialog--fish" id="details--bitey">
+            <p>length: 4 in</p>
+            <p>diet: humans</p>
+            <p>location: Amazon</p>
+            <button class="button--close" id="close-bitey">Close</button>
+          </dialog>
         </section>
         <section class="fishies__card">
           <header>
@@ -90,15 +129,21 @@
             <p>Leopard Shark</p>
           </header>
           <img src="https://i.pinimg.com/originals/da/2b/28/da2b289a23dfe2e9cf73a8d003ae6535.jpg" alt="pic of a fish">
-          <p>length: 54 in</p>
-          <p>diet: shrimp</p>
-          <p>location: California</p>
+          <div>
+            <button id="button--leo">Details</button>
+          </div>
+          <dialog class="dialog--fish" id="details--leo">
+            <p>length: 54 in</p>
+            <p>diet: shrimp</p>
+            <p>location: California</p>
+            <button class="button--close" id="close-leo">Close</button>
+          </dialog>
         </section>
       </article>
 
       <!-- Sidebar of tank tips -->
       <aside>
-      <h2>My Expert Tips</h2>
+        <h2>My Expert Tips</h2>
         <div class="tip">
           <h4>Feeding</h4>
           <!-- description -->
@@ -122,5 +167,8 @@
       </aside>
     </div>
   </main>
+  <script type="module" src="./main.js"></script>
+
 </body>
+
 </html>
