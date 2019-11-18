@@ -1,8 +1,9 @@
 nav {
-  border: 2px solid gray;
-  box-shadow: 1px 2px 2px gray;
+  border: 2px solid  rgba(5, 5, 46, 0.767);
+  border-radius: 5px;
+  box-shadow: .5px 1px 1px gray;
   padding: 10px 8px;
-  background-color: beige;
+  background-color: rgb(204, 235, 236);
 }
 
 nav span {
@@ -17,8 +18,8 @@ nav span {
 .nav__links a {
   border: 2px solid gray;
   border-radius: 5px;
-  box-shadow: 1px -1px 2px gray;
+  box-shadow: .5px .5px .5px gray;
   text-decoration: none;
   padding: 5px 8px;
-  background-color: cyan;
+  background-color: rgb(231, 246, 247);
 }
