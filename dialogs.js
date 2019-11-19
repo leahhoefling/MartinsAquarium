@@ -64,5 +64,23 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+
+    let tips = document.querySelector("#tips__aside");
+
+    // This handler will be executed only once when the cursor
+    // moves over the aside
+    tips.addEventListener("mouseover", function (event) {
+        // highlight the mouseenter target
+        event.target.style.borderColor = "teal";
+
+        // reset the border color after a short delay
+        setTimeout(function () {
+            event.target.style.borderColor = "";
+        }, 500);
+    }, false);
+
+
+
+
 }
 export default initializeDetailButtonEvents
