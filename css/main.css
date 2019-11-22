@@ -15,7 +15,7 @@ img {
   max-width: 100%;
 }
 
-.fishies {
+.fish_section {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 68%;
@@ -37,8 +37,8 @@ aside{
   border: 3px solid rgb(230, 203, 53);
   padding: 0 5px;
   border-radius: 5px;
-
 }
+
 
 @media (max-width: 600px) {
   .fishies {
